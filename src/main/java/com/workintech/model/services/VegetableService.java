@@ -5,7 +5,7 @@ import com.workintech.model.entity.Vegetable;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-@Service
+
 public interface VegetableService {
     List<Vegetable> findAll();
    Vegetable findById(long id);
